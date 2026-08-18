@@ -2184,17 +2184,7 @@
           "title": "PM SESSION"
         }
       ],
-      "groups": [
-        {
-          "id": "SUPERSET-A",
-          "groupType": "superset",
-          "order": 1,
-          "title": "SUPERSET A",
-          "transitionText": "Minimal equipment-change time.",
-          "restAfterGroupRangeLow": 60,
-          "restAfterGroupRangeHigh": 90
-        }
-      ],
+      "groups": [],
       "exercises": [
         {
           "recordID": "PH-CODEX-FG2-P01-D02-PM-E01",
@@ -2718,7 +2708,18 @@
           "sourceReferenceLines": []
         }
       ],
-      "sourceIntent": "Build upper chest, lats, delts and arms while maintaining pressing strength."
+      "sourceIntent": "Build upper chest, lats, delts and arms while maintaining pressing strength.",
+      "sourceGroupDefinitions": [
+        {
+          "id": "SUPERSET-A",
+          "groupType": "superset",
+          "order": 1,
+          "title": "SUPERSET A",
+          "transitionText": "Minimal equipment-change time.",
+          "restAfterGroupRangeLow": 60,
+          "restAfterGroupRangeHigh": 90
+        }
+      ]
     },
     {
       "sessionID": "PH-CODEX-FG2-P01-D03-AM",
@@ -4705,16 +4706,7 @@
           "title": "PM SESSION"
         }
       ],
-      "groups": [
-        {
-          "id": "SUPERSET-B",
-          "groupType": "superset",
-          "order": 1,
-          "title": "SUPERSET B",
-          "restAfterGroupRangeLow": 60,
-          "restAfterGroupRangeHigh": 90
-        }
-      ],
+      "groups": [],
       "exercises": [
         {
           "recordID": "PH-CODEX-FG2-P01-D04-PM-E01",
@@ -5299,6 +5291,16 @@
           "stopRules": [],
           "sourceReferenceLines": []
         }
+      ],
+      "sourceGroupDefinitions": [
+        {
+          "id": "SUPERSET-B",
+          "groupType": "superset",
+          "order": 1,
+          "title": "SUPERSET B",
+          "restAfterGroupRangeLow": 60,
+          "restAfterGroupRangeHigh": 90
+        }
       ]
     }
   ],
@@ -5327,9 +5329,10 @@
         },
         {
           "id": "PH-CODEX-FG2-P01-R01-WED-WALK",
-          "blockType": "walking",
+          "blockType": "cardio",
           "order": 2,
-          "title": "Easy Walk"
+          "title": "Easy Walk",
+          "sourceBlockType": "walking"
         }
       ],
       "groups": [],
@@ -5595,9 +5598,10 @@
       "blocks": [
         {
           "id": "PH-CODEX-FG2-P01-R03-SUN-REST",
-          "blockType": "rest",
+          "blockType": "recovery",
           "order": 1,
-          "title": "Default — Full Rest"
+          "title": "Default — Full Rest",
+          "sourceBlockType": "rest"
         },
         {
           "id": "PH-CODEX-FG2-P01-R03-SUN-OPTIONAL",

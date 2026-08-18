@@ -127,19 +127,22 @@
             "sourceExerciseName": "Wrist Loading / Wrist Rocks",
             "rawPrescription": "1 minute",
             "sets": 1,
-            "reps": "1 min"
+            "reps": "1 min",
+            "id": "PH-CODEX-FG2-P01-MISSED-D01-AM-PW-01"
           },
           {
             "sourceExerciseName": "Pseudo Planche Lean",
             "rawPrescription": "2 × 20–30 sec",
             "sets": 2,
-            "reps": "20-30 sec"
+            "reps": "20-30 sec",
+            "id": "PH-CODEX-FG2-P01-MISSED-D01-AM-PW-02"
           },
           {
             "sourceExerciseName": "Pseudo Planche Push-Up",
             "rawPrescription": "2 × 5–8",
             "sets": 2,
-            "reps": "5-8"
+            "reps": "5-8",
+            "id": "PH-CODEX-FG2-P01-MISSED-D01-AM-PW-03"
           }
         ],
         "dropSourceExerciseNames": [],
@@ -154,13 +157,15 @@
             "sourceExerciseName": "Band-Assisted Muscle-Up",
             "rawPrescription": "3 × 2",
             "sets": 3,
-            "reps": "2"
+            "reps": "2",
+            "id": "PH-CODEX-FG2-P01-MISSED-D02-AM-PW-01"
           },
           {
             "sourceExerciseName": "Explosive High Pull-Up",
             "rawPrescription": "3 × 3",
             "sets": 3,
-            "reps": "3"
+            "reps": "3",
+            "id": "PH-CODEX-FG2-P01-MISSED-D02-AM-PW-02"
           }
         ],
         "dropSourceExerciseNames": [
@@ -179,19 +184,22 @@
             "sourceExerciseName": "Band-Assisted Muscle-Up",
             "rawPrescription": "2 × 2",
             "sets": 2,
-            "reps": "2"
+            "reps": "2",
+            "id": "PH-CODEX-FG2-P01-MISSED-D03-AM-PW-01"
           },
           {
             "sourceExerciseName": "Standing Broad Jump",
             "rawPrescription": "3 × 2",
             "sets": 3,
-            "reps": "2"
+            "reps": "2",
+            "id": "PH-CODEX-FG2-P01-MISSED-D03-AM-PW-02"
           },
           {
             "sourceExerciseName": "Countermovement Vertical Jump",
             "rawPrescription": "3 × 2",
             "sets": 3,
-            "reps": "2"
+            "reps": "2",
+            "id": "PH-CODEX-FG2-P01-MISSED-D03-AM-PW-03"
           }
         ],
         "dropSourceExerciseNames": [
@@ -210,25 +218,29 @@
             "sourceExerciseName": "Wrist/scapular preparation",
             "rawPrescription": "Prescribed source preparation; exact additional dose not separately specified in missed-AM section",
             "sets": null,
-            "reps": ""
+            "reps": "",
+            "id": "PH-CODEX-FG2-P01-MISSED-D04-AM-PW-01"
           },
           {
             "sourceExerciseName": "Pseudo Planche Lean",
             "rawPrescription": "2 sets",
             "sets": 2,
-            "reps": ""
+            "reps": "",
+            "id": "PH-CODEX-FG2-P01-MISSED-D04-AM-PW-02"
           },
           {
             "sourceExerciseName": "Freestanding Handstand Practice",
             "rawPrescription": "5 minutes",
             "sets": null,
-            "reps": "5 min"
+            "reps": "5 min",
+            "id": "PH-CODEX-FG2-P01-MISSED-D04-AM-PW-03"
           },
           {
             "sourceExerciseName": "Wall HSPU",
             "rawPrescription": "2 × 3–6",
             "sets": 2,
-            "reps": "3-6"
+            "reps": "3-6",
+            "id": "PH-CODEX-FG2-P01-MISSED-D04-AM-PW-04"
           }
         ],
         "dropSourceExerciseNames": [

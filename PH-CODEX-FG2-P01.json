@@ -415,6 +415,18 @@
           "blockType": "strength",
           "order": 2,
           "title": "AM SESSION"
+        },
+        {
+          "id": "PH-CODEX-FG2-P01-D01-AM-COOLDOWN",
+          "blockType": "cooldown",
+          "order": 3,
+          "title": "COOLDOWN",
+          "sourceNotes": [
+            "Relax wrists and shoulders.",
+            "Easy breathing.",
+            "Finish fresh for the PM session.",
+            "No extra training volume."
+          ]
         }
       ],
       "groups": [],
@@ -975,7 +987,37 @@
           "countsTowardWorkingVolume": false
         }
       ],
-      "warmupRule": "Prepare the wrists, shoulders, elbows and trunk. Do not create fatigue."
+      "warmupRule": "Prepare the wrists, shoulders, elbows and trunk. Do not create fatigue.",
+      "sourceCooldownRecords": [
+        {
+          "recordID": "PH-CODEX-FG2-P01-D01-AM-CD01",
+          "recordType": "cooldownCue",
+          "order": 1,
+          "sourceText": "Relax wrists and shoulders.",
+          "sourcePage": 4
+        },
+        {
+          "recordID": "PH-CODEX-FG2-P01-D01-AM-CD02",
+          "recordType": "cooldownCue",
+          "order": 2,
+          "sourceText": "Easy breathing.",
+          "sourcePage": 4
+        },
+        {
+          "recordID": "PH-CODEX-FG2-P01-D01-AM-CD03",
+          "recordType": "cooldownCue",
+          "order": 3,
+          "sourceText": "Finish fresh for the PM session.",
+          "sourcePage": 4
+        },
+        {
+          "recordID": "PH-CODEX-FG2-P01-D01-AM-CD04",
+          "recordType": "cooldownCue",
+          "order": 4,
+          "sourceText": "No extra training volume.",
+          "sourcePage": 4
+        }
+      ]
     },
     {
       "sessionID": "PH-CODEX-FG2-P01-D01-PM",
@@ -1012,6 +1054,18 @@
           "blockType": "strength",
           "order": 2,
           "title": "MAIN WORK"
+        },
+        {
+          "id": "PH-CODEX-FG2-P01-D01-PM-COOLDOWN",
+          "blockType": "cooldown",
+          "order": 3,
+          "title": "COOLDOWN",
+          "sourceNotes": [
+            "Brief easy walking if desired.",
+            "Let breathing and heart rate normalize.",
+            "Light mobility only if it improves recovery.",
+            "No extra training volume."
+          ]
         }
       ],
       "groups": [],
@@ -1901,7 +1955,37 @@
           "blockID": "PH-CODEX-FG2-P01-D01-PM-WARMUP"
         }
       ],
-      "warmupRule": "Ramp-up sets never count toward the prescribed 4 working sets."
+      "warmupRule": "Ramp-up sets never count toward the prescribed 4 working sets.",
+      "sourceCooldownRecords": [
+        {
+          "recordID": "PH-CODEX-FG2-P01-D01-PM-CD01",
+          "recordType": "cooldownCue",
+          "order": 1,
+          "sourceText": "Brief easy walking if desired.",
+          "sourcePage": 4
+        },
+        {
+          "recordID": "PH-CODEX-FG2-P01-D01-PM-CD02",
+          "recordType": "cooldownCue",
+          "order": 2,
+          "sourceText": "Let breathing and heart rate normalize.",
+          "sourcePage": 4
+        },
+        {
+          "recordID": "PH-CODEX-FG2-P01-D01-PM-CD03",
+          "recordType": "cooldownCue",
+          "order": 3,
+          "sourceText": "Light mobility only if it improves recovery.",
+          "sourcePage": 4
+        },
+        {
+          "recordID": "PH-CODEX-FG2-P01-D01-PM-CD04",
+          "recordType": "cooldownCue",
+          "order": 4,
+          "sourceText": "No extra training volume.",
+          "sourcePage": 4
+        }
+      ]
     },
     {
       "sessionID": "PH-CODEX-FG2-P01-D02-AM",
@@ -1938,6 +2022,18 @@
           "blockType": "strength",
           "order": 2,
           "title": "AM SESSION"
+        },
+        {
+          "id": "PH-CODEX-FG2-P01-D02-AM-COOLDOWN",
+          "blockType": "cooldown",
+          "order": 3,
+          "title": "COOLDOWN",
+          "sourceNotes": [
+            "Shake out forearms and hands.",
+            "Gentle shoulder movement.",
+            "Easy breathing.",
+            "Leave enough pulling capacity for the PM session."
+          ]
         }
       ],
       "groups": [],
@@ -2471,7 +2567,37 @@
           "blockID": "PH-CODEX-FG2-P01-D02-AM-WARMUP"
         }
       ],
-      "warmupRule": "Keep every warm-up rep easy."
+      "warmupRule": "Keep every warm-up rep easy.",
+      "sourceCooldownRecords": [
+        {
+          "recordID": "PH-CODEX-FG2-P01-D02-AM-CD01",
+          "recordType": "cooldownCue",
+          "order": 1,
+          "sourceText": "Shake out forearms and hands.",
+          "sourcePage": 5
+        },
+        {
+          "recordID": "PH-CODEX-FG2-P01-D02-AM-CD02",
+          "recordType": "cooldownCue",
+          "order": 2,
+          "sourceText": "Gentle shoulder movement.",
+          "sourcePage": 5
+        },
+        {
+          "recordID": "PH-CODEX-FG2-P01-D02-AM-CD03",
+          "recordType": "cooldownCue",
+          "order": 3,
+          "sourceText": "Easy breathing.",
+          "sourcePage": 5
+        },
+        {
+          "recordID": "PH-CODEX-FG2-P01-D02-AM-CD04",
+          "recordType": "cooldownCue",
+          "order": 4,
+          "sourceText": "Leave enough pulling capacity for the PM session.",
+          "sourcePage": 5
+        }
+      ]
     },
     {
       "sessionID": "PH-CODEX-FG2-P01-D02-PM",
@@ -2508,6 +2634,18 @@
           "blockType": "strength",
           "order": 2,
           "title": "PM SESSION"
+        },
+        {
+          "id": "PH-CODEX-FG2-P01-D02-PM-COOLDOWN",
+          "blockType": "cooldown",
+          "order": 3,
+          "title": "COOLDOWN",
+          "sourceNotes": [
+            "No extra upper-body burnout required.",
+            "Gentle shoulder / arm movement.",
+            "Optional brief walk.",
+            "Avoid extra failure sets just because the arms feel fresh."
+          ]
         }
       ],
       "groups": [],
@@ -3144,7 +3282,37 @@
           "blockID": "PH-CODEX-FG2-P01-D02-PM-WARMUP"
         }
       ],
-      "warmupRule": "Warm-up work is preparation only and does not count toward working volume."
+      "warmupRule": "Warm-up work is preparation only and does not count toward working volume.",
+      "sourceCooldownRecords": [
+        {
+          "recordID": "PH-CODEX-FG2-P01-D02-PM-CD01",
+          "recordType": "cooldownCue",
+          "order": 1,
+          "sourceText": "No extra upper-body burnout required.",
+          "sourcePage": 5
+        },
+        {
+          "recordID": "PH-CODEX-FG2-P01-D02-PM-CD02",
+          "recordType": "cooldownCue",
+          "order": 2,
+          "sourceText": "Gentle shoulder / arm movement.",
+          "sourcePage": 5
+        },
+        {
+          "recordID": "PH-CODEX-FG2-P01-D02-PM-CD03",
+          "recordType": "cooldownCue",
+          "order": 3,
+          "sourceText": "Optional brief walk.",
+          "sourcePage": 5
+        },
+        {
+          "recordID": "PH-CODEX-FG2-P01-D02-PM-CD04",
+          "recordType": "cooldownCue",
+          "order": 4,
+          "sourceText": "Avoid extra failure sets just because the arms feel fresh.",
+          "sourcePage": 5
+        }
+      ]
     },
     {
       "sessionID": "PH-CODEX-FG2-P01-D03-AM",
@@ -3182,6 +3350,18 @@
           "blockType": "power",
           "order": 2,
           "title": "AM SESSION"
+        },
+        {
+          "id": "PH-CODEX-FG2-P01-D03-AM-COOLDOWN",
+          "blockType": "cooldown",
+          "order": 3,
+          "title": "COOLDOWN",
+          "sourceNotes": [
+            "Easy walk 3–5 min.",
+            "Ankle movement.",
+            "Light hip mobility.",
+            "Slow breathing."
+          ]
         }
       ],
       "groups": [],
@@ -3863,7 +4043,37 @@
           "blockID": "PH-CODEX-FG2-P01-D03-AM-WARMUP"
         }
       ],
-      "warmupRule": "Power work starts only after the body feels fast and prepared."
+      "warmupRule": "Power work starts only after the body feels fast and prepared.",
+      "sourceCooldownRecords": [
+        {
+          "recordID": "PH-CODEX-FG2-P01-D03-AM-CD01",
+          "recordType": "cooldownCue",
+          "order": 1,
+          "sourceText": "Easy walk 3–5 min.",
+          "sourcePage": 7
+        },
+        {
+          "recordID": "PH-CODEX-FG2-P01-D03-AM-CD02",
+          "recordType": "cooldownCue",
+          "order": 2,
+          "sourceText": "Ankle movement.",
+          "sourcePage": 7
+        },
+        {
+          "recordID": "PH-CODEX-FG2-P01-D03-AM-CD03",
+          "recordType": "cooldownCue",
+          "order": 3,
+          "sourceText": "Light hip mobility.",
+          "sourcePage": 7
+        },
+        {
+          "recordID": "PH-CODEX-FG2-P01-D03-AM-CD04",
+          "recordType": "cooldownCue",
+          "order": 4,
+          "sourceText": "Slow breathing.",
+          "sourcePage": 7
+        }
+      ]
     },
     {
       "sessionID": "PH-CODEX-FG2-P01-D03-PM",
@@ -3901,6 +4111,18 @@
           "blockType": "strength",
           "order": 2,
           "title": "PM SESSION"
+        },
+        {
+          "id": "PH-CODEX-FG2-P01-D03-PM-COOLDOWN",
+          "blockType": "cooldown",
+          "order": 3,
+          "title": "COOLDOWN",
+          "sourceNotes": [
+            "Easy walk 3–5 min.",
+            "Light hip movement.",
+            "Gentle ankle mobility.",
+            "Easy breathing."
+          ]
         }
       ],
       "groups": [],
@@ -4634,7 +4856,37 @@
           "blockID": "PH-CODEX-FG2-P01-D03-PM-WARMUP"
         }
       ],
-      "warmupRule": "Warm-up work is preparation only and does not count toward working volume."
+      "warmupRule": "Warm-up work is preparation only and does not count toward working volume.",
+      "sourceCooldownRecords": [
+        {
+          "recordID": "PH-CODEX-FG2-P01-D03-PM-CD01",
+          "recordType": "cooldownCue",
+          "order": 1,
+          "sourceText": "Easy walk 3–5 min.",
+          "sourcePage": 7
+        },
+        {
+          "recordID": "PH-CODEX-FG2-P01-D03-PM-CD02",
+          "recordType": "cooldownCue",
+          "order": 2,
+          "sourceText": "Light hip movement.",
+          "sourcePage": 7
+        },
+        {
+          "recordID": "PH-CODEX-FG2-P01-D03-PM-CD03",
+          "recordType": "cooldownCue",
+          "order": 3,
+          "sourceText": "Gentle ankle mobility.",
+          "sourcePage": 7
+        },
+        {
+          "recordID": "PH-CODEX-FG2-P01-D03-PM-CD04",
+          "recordType": "cooldownCue",
+          "order": 4,
+          "sourceText": "Easy breathing.",
+          "sourcePage": 7
+        }
+      ]
     },
     {
       "sessionID": "PH-CODEX-FG2-P01-D04-AM",
@@ -4673,6 +4925,18 @@
           "blockType": "strength",
           "order": 2,
           "title": "AM SESSION"
+        },
+        {
+          "id": "PH-CODEX-FG2-P01-D04-AM-COOLDOWN",
+          "blockType": "cooldown",
+          "order": 3,
+          "title": "COOLDOWN",
+          "sourceNotes": [
+            "Gentle wrist movement.",
+            "Easy shoulder movement.",
+            "Relaxed breathing.",
+            "Forearm shakeout."
+          ]
         }
       ],
       "groups": [],
@@ -5489,7 +5753,37 @@
           "countsTowardWorkingVolume": false
         }
       ],
-      "warmupRule": "Do not fatigue the shoulders before skill work."
+      "warmupRule": "Do not fatigue the shoulders before skill work.",
+      "sourceCooldownRecords": [
+        {
+          "recordID": "PH-CODEX-FG2-P01-D04-AM-CD01",
+          "recordType": "cooldownCue",
+          "order": 1,
+          "sourceText": "Gentle wrist movement.",
+          "sourcePage": 9
+        },
+        {
+          "recordID": "PH-CODEX-FG2-P01-D04-AM-CD02",
+          "recordType": "cooldownCue",
+          "order": 2,
+          "sourceText": "Easy shoulder movement.",
+          "sourcePage": 9
+        },
+        {
+          "recordID": "PH-CODEX-FG2-P01-D04-AM-CD03",
+          "recordType": "cooldownCue",
+          "order": 3,
+          "sourceText": "Relaxed breathing.",
+          "sourcePage": 9
+        },
+        {
+          "recordID": "PH-CODEX-FG2-P01-D04-AM-CD04",
+          "recordType": "cooldownCue",
+          "order": 4,
+          "sourceText": "Forearm shakeout.",
+          "sourcePage": 9
+        }
+      ]
     },
     {
       "sessionID": "PH-CODEX-FG2-P01-D04-PM",
@@ -5527,6 +5821,18 @@
           "blockType": "power",
           "order": 2,
           "title": "PM SESSION"
+        },
+        {
+          "id": "PH-CODEX-FG2-P01-D04-PM-COOLDOWN",
+          "blockType": "cooldown",
+          "order": 3,
+          "title": "COOLDOWN",
+          "sourceNotes": [
+            "Reduce incline / speed gradually.",
+            "Easy walk 2–3 min.",
+            "Relax shoulders / arms.",
+            "Controlled breathing."
+          ]
         }
       ],
       "groups": [],
@@ -6239,7 +6545,37 @@
           "blockID": "PH-CODEX-FG2-P01-D04-PM-WARMUP"
         }
       ],
-      "warmupRule": "Warm-up work is preparation only and does not count toward working volume."
+      "warmupRule": "Warm-up work is preparation only and does not count toward working volume.",
+      "sourceCooldownRecords": [
+        {
+          "recordID": "PH-CODEX-FG2-P01-D04-PM-CD01",
+          "recordType": "cooldownCue",
+          "order": 1,
+          "sourceText": "Reduce incline / speed gradually.",
+          "sourcePage": 9
+        },
+        {
+          "recordID": "PH-CODEX-FG2-P01-D04-PM-CD02",
+          "recordType": "cooldownCue",
+          "order": 2,
+          "sourceText": "Easy walk 2–3 min.",
+          "sourcePage": 9
+        },
+        {
+          "recordID": "PH-CODEX-FG2-P01-D04-PM-CD03",
+          "recordType": "cooldownCue",
+          "order": 3,
+          "sourceText": "Relax shoulders / arms.",
+          "sourcePage": 9
+        },
+        {
+          "recordID": "PH-CODEX-FG2-P01-D04-PM-CD04",
+          "recordType": "cooldownCue",
+          "order": 4,
+          "sourceText": "Controlled breathing.",
+          "sourcePage": 9
+        }
+      ]
     }
   ],
   "restDays": [

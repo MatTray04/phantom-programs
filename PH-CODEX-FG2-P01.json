@@ -17,7 +17,7 @@
     "policy": "This Markdown file is the programming authority for this Codex. Explicit source programming wins over AI-generated or inferred content."
   },
   "programMetadata": {
-    "phase": "PHASE 1 — REBUILD, CUT & SKILL FOUNDATION",
+    "phase": "PHASE 1 — REBUILD, CUT & STRAIGHT-ARM FOUNDATION",
     "weekText": "Weeks 1–8",
     "blockLength": "8 Weeks",
     "experience": "Advanced",
@@ -68,7 +68,7 @@
       ],
       "phase": "deload",
       "title": "DELOAD",
-      "rawRule": "Reduce normal resistance-training set volume approximately 30–40%. Keep loads technically meaningful but avoid hard efforts. Continue muscle-up, planche and handstand patterns with easier variations, fewer total sets, no maximal holds and no aggressive testing. Reduce jump contacts approximately 50% and treadmill acceleration volume approximately 50%."
+      "rawRule": "Reduce normal resistance-training set volume approximately 30–40%. Keep loads technically meaningful but avoid hard efforts. Continue planche, front-lever and handstand patterns with easier variations, fewer total sets, no maximal holds and no aggressive testing. Direct muscle-up work remains optional. Reduce jump contacts approximately 50% and treadmill acceleration volume approximately 50%."
     },
     {
       "id": "PH-CODEX-FG2-P01-W05-07",
@@ -79,7 +79,7 @@
       ],
       "phase": "build",
       "title": "BUILD",
-      "rawRule": "Resume normal volume. Progress strength loads, hypertrophy reps/load, muscle-up assistance, pull height, planche lean, tuck-planche control, handstand independence, L-sit duration, HSPU quality, grip duration and acceleration exposure. Do not progress every variable at the same time."
+      "rawRule": "Resume normal volume. Progress strength loads, hypertrophy reps/load, pull height, strict pull-up strength, planche lean, tuck-planche control, front-lever tuck/control, handstand independence, L-sit duration, HSPU quality, grip duration and acceleration exposure. Direct muscle-up work remains optional. Do not progress every variable at the same time."
     },
     {
       "id": "PH-CODEX-FG2-P01-W08",
@@ -88,7 +88,7 @@
       ],
       "phase": "testingConsolidation",
       "title": "CONSOLIDATION / TESTING",
-      "rawRule": "Reduce unnecessary accessory fatigue. Assess bodyweight, waist, progress photos, available skinfold measurements, muscle-up progress, pulling, planche, handstand, HSPU, L-sit, grip, broad jump, vertical jump, acceleration quality and major strength movements without mandatory true 1RM grinding."
+      "rawRule": "Reduce unnecessary accessory fatigue. Assess bodyweight, waist, progress photos, available skinfold measurements, pulling strength/pull height, planche, front lever, handstand, HSPU, L-sit, grip, broad jump, vertical jump, acceleration quality and major strength movements without mandatory true 1RM grinding. Muscle-up testing is optional only if equipment and technique readiness allow."
     }
   ],
   "programRules": {
@@ -97,7 +97,7 @@
       "Eight separate AM/PM Lift Ghost sessions",
       "Separate AM and PM warm-ups",
       "Warm-up volume does not count as working volume",
-      "Muscle-up exposure at least twice weekly",
+      "Front Lever exposure at least twice weekly",
       "Planche exposure at least twice weekly",
       "Wrist/scapular preparation before planche",
       "Power work performed fresh",
@@ -182,10 +182,10 @@
         ],
         "priorityWork": [
           {
-            "sourceExerciseName": "Band-Assisted Muscle-Up",
-            "rawPrescription": "3 × 2",
-            "sets": 3,
-            "reps": "2"
+            "sourceExerciseName": "Tuck Front Lever Hold",
+            "rawPrescription": "2 × 6–12 sec",
+            "sets": 2,
+            "reps": "6–12 sec"
           },
           {
             "sourceExerciseName": "Explosive High Pull-Up",
@@ -199,7 +199,15 @@
           "straight-bar dips",
           "dead hangs"
         ],
-        "rawRule": "Perform the mini warm-up and priority work only before the PM session."
+        "rawRule": "Perform the mini warm-up and mandatory priority work only before the PM session. Direct muscle-up work is optional.",
+        "optionalPriorityWork": [
+          {
+            "sourceExerciseName": "Band-Assisted Muscle-Up",
+            "rawPrescription": "3 × 2",
+            "sets": 3,
+            "reps": "2"
+          }
+        ]
       },
       {
         "id": "PH-CODEX-FG2-P01-MISSED-D03-AM",
@@ -221,12 +229,6 @@
         ],
         "priorityWork": [
           {
-            "sourceExerciseName": "Band-Assisted Muscle-Up",
-            "rawPrescription": "2 × 2",
-            "sets": 2,
-            "reps": "2"
-          },
-          {
             "sourceExerciseName": "Standing Broad Jump",
             "rawPrescription": "3 × 2",
             "sets": 3,
@@ -244,7 +246,15 @@
           "kettlebell swings",
           "treadmill accelerations"
         ],
-        "rawRule": "Do not cram the complete athletic-power session into PM."
+        "rawRule": "Do not cram the complete athletic-power session into PM. Direct muscle-up work is optional.",
+        "optionalPriorityWork": [
+          {
+            "sourceExerciseName": "Band-Assisted Muscle-Up",
+            "rawPrescription": "2 × 2",
+            "sets": 2,
+            "reps": "2"
+          }
+        ]
       },
       {
         "id": "PH-CODEX-FG2-P01-MISSED-D04-AM",
@@ -295,6 +305,8 @@
       "Quality is more important than completing every prescribed repetition.",
       "Stop or regress when elbows bend unintentionally during planche work.",
       "Stop or regress when scapular position collapses.",
+      "Stop or regress front-lever work when elbow lock is lost.",
+      "Stop or regress front-lever work when scapular depression or trunk position collapses.",
       "Stop or regress when muscle-up becomes uncontrolled.",
       "Stop or regress when excessive kicking replaces pulling power.",
       "Stop or regress when wrist, shoulder or elbow discomfort becomes more than normal training stress.",
@@ -338,8 +350,8 @@
         "available skinfold measurements"
       ],
       "muscleUp": [
-        "assisted muscle-up quality",
-        "lighter-band performance",
+        "OPTIONAL only if appropriate straight-bar access exists",
+        "assisted muscle-up quality if performed",
         "unassisted attempt only if technically ready"
       ],
       "pulling": [
@@ -370,12 +382,19 @@
       ],
       "strength": [
         "major lifts without mandatory true 1RM grinding"
+      ],
+      "frontLever": [
+        "current clean Front-Lever progression level",
+        "best technically valid hold at that level",
+        "straight-arm scapular depression/control",
+        "ability to maintain locked elbows and trunk position without swinging",
+        "no requirement to reach advanced tuck"
       ]
     },
     "skillPriorityRule": {
       "primaryPhase1Skills": [
-        "Muscle-Up",
-        "Planche"
+        "Planche",
+        "Front Lever"
       ],
       "secondaryPhase1Skills": [
         "Handstand",
@@ -386,10 +405,12 @@
         "Dragon Flag"
       ],
       "notPrimaryPhase1Specializations": [
-        "Front Lever",
         "Human Flag"
       ],
-      "laterPhaseRule": "Front Lever and Human Flag receive dedicated emphasis during later FREAK-GOD phases."
+      "laterPhaseRule": "Muscle-Up remains retained and optional during Phase 1 while pull-up strength develops; Human Flag receives dedicated emphasis in a later FREAK-GOD phase.",
+      "optionalRetainedSkills": [
+        "Muscle-Up"
+      ]
     },
     "sourceFatigueRules": {
       "explosiveWork": [
@@ -411,7 +432,21 @@
         "Most hypertrophy work should finish with approximately 1–3 reps in reserve.",
         "Routine failure is unnecessary."
       ]
-    }
+    },
+    "muscleUpProgressionStatus": "Retained unchanged for future/direct muscle-up use; direct muscle-up exercises are optional during the current Phase-1 emphasis.",
+    "pullingStrengthForFutureMuscleUpRule": "Keep strict pull-ups and explosive high pulls as normal Phase-1 work. Build clean strict-pull-up strength first; weighted pull-up progression can be introduced later by the athlete/AI when appropriate rather than being hard-coded as a replacement exercise here.",
+    "frontLeverProgressionHierarchy": [
+      "active hang / scapular depression control",
+      "straight-arm Front-Lever scapular pull",
+      "assisted or very tight tuck Front Lever",
+      "clean unassisted tuck Front Lever",
+      "stronger/longer clean tuck",
+      "advanced tuck in later phases only when earned",
+      "one-leg / straddle progressions later",
+      "full Front Lever"
+    ],
+    "frontLeverPhaseRule": "Phase 1 is beginner Front-Lever foundation development. A clean tuck Front Lever is a target, not an assumed baseline. Use assistance or a tighter tuck whenever needed. Holds stop when elbow lock, scapular depression, trunk control, or a controlled entry is lost.",
+    "frontLeverExperienceBaseline": "No prior direct Front Lever training. Existing bent-arm pull-up/knee-tuck ability is treated as useful general pulling/core preparation, not as proof of Front Lever proficiency."
   },
   "days": [
     {
@@ -575,7 +610,9 @@
           "sourceReferenceLines": [],
           "isWorkingExercise": true,
           "countsTowardWorkingVolume": true,
-          "countsTowardProgressiveOverload": true
+          "countsTowardProgressiveOverload": true,
+          "prescriptionKind": "timedSet",
+          "restStatus": "prescribedRange"
         },
         {
           "recordID": "PH-CODEX-FG2-P01-D01-AM-E04",
@@ -670,7 +707,9 @@
           "sourceReferenceLines": [],
           "isWorkingExercise": true,
           "countsTowardWorkingVolume": true,
-          "countsTowardProgressiveOverload": true
+          "countsTowardProgressiveOverload": true,
+          "prescriptionKind": "repetitionBased",
+          "restStatus": "prescribedExact"
         },
         {
           "recordID": "PH-CODEX-FG2-P01-D01-AM-E05",
@@ -753,7 +792,9 @@
           "sourceReferenceLines": [],
           "isWorkingExercise": true,
           "countsTowardWorkingVolume": true,
-          "countsTowardProgressiveOverload": true
+          "countsTowardProgressiveOverload": true,
+          "prescriptionKind": "timedSet",
+          "restStatus": "prescribedRange"
         }
       ],
       "sourceIntent": "Develop straight-arm strength, scapular control, wrist tolerance and trunk position without creating meaningful fatigue before the PM lower-body session.",
@@ -1145,7 +1186,9 @@
           "sourceReferenceLines": [],
           "isWorkingExercise": true,
           "countsTowardWorkingVolume": true,
-          "countsTowardProgressiveOverload": true
+          "countsTowardProgressiveOverload": true,
+          "prescriptionKind": "repetitionBased",
+          "restStatus": "prescribedRange"
         },
         {
           "recordID": "PH-CODEX-FG2-P01-D01-PM-E05",
@@ -1234,7 +1277,9 @@
           "sourceReferenceLines": [],
           "isWorkingExercise": true,
           "countsTowardWorkingVolume": true,
-          "countsTowardProgressiveOverload": true
+          "countsTowardProgressiveOverload": true,
+          "prescriptionKind": "repetitionBased",
+          "restStatus": "prescribedRange"
         },
         {
           "recordID": "PH-CODEX-FG2-P01-D01-PM-E06",
@@ -1316,7 +1361,9 @@
           "sourceReferenceLines": [],
           "isWorkingExercise": true,
           "countsTowardWorkingVolume": true,
-          "countsTowardProgressiveOverload": true
+          "countsTowardProgressiveOverload": true,
+          "prescriptionKind": "repetitionBased",
+          "restStatus": "prescribedRange"
         },
         {
           "recordID": "PH-CODEX-FG2-P01-D01-PM-E07",
@@ -1396,7 +1443,9 @@
           "sourceReferenceLines": [],
           "isWorkingExercise": true,
           "countsTowardWorkingVolume": true,
-          "countsTowardProgressiveOverload": true
+          "countsTowardProgressiveOverload": true,
+          "prescriptionKind": "repetitionBased",
+          "restStatus": "prescribedExact"
         },
         {
           "recordID": "PH-CODEX-FG2-P01-D01-PM-E08",
@@ -1486,7 +1535,9 @@
           "sourceReferenceLines": [],
           "isWorkingExercise": true,
           "countsTowardWorkingVolume": true,
-          "countsTowardProgressiveOverload": true
+          "countsTowardProgressiveOverload": true,
+          "prescriptionKind": "repetitionBased",
+          "restStatus": "prescribedRange"
         },
         {
           "recordID": "PH-CODEX-FG2-P01-D01-PM-E09",
@@ -1558,7 +1609,9 @@
           "sourceReferenceLines": [],
           "isWorkingExercise": true,
           "countsTowardWorkingVolume": true,
-          "countsTowardProgressiveOverload": true
+          "countsTowardProgressiveOverload": true,
+          "prescriptionKind": "repetitionBased",
+          "restStatus": "prescribedRange"
         },
         {
           "recordID": "PH-CODEX-FG2-P01-D01-PM-E10",
@@ -1644,7 +1697,9 @@
           "sourceReferenceLines": [],
           "isWorkingExercise": true,
           "countsTowardWorkingVolume": true,
-          "countsTowardProgressiveOverload": true
+          "countsTowardProgressiveOverload": true,
+          "prescriptionKind": "repetitionBased",
+          "restStatus": "prescribedRange"
         }
       ],
       "sourceIntent": "Preserve high force production while building posterior-chain, abdominal and ankle strength.",
@@ -1900,11 +1955,11 @@
       "recursWeekly": true,
       "dayNumber": 2,
       "scheduleLabel": "TUESDAY • DAY 2 AM",
-      "title": "MUSCLE-UP LAB + GRIP",
-      "focus": "Muscle-Up Skill / Explosive Pulling / Grip",
+      "title": "PULLING STRENGTH + FRONT LEVER LAB",
+      "focus": "Front Lever / Explosive Pulling / Pull-Up Strength / Grip",
       "duration": "35–45 min",
       "difficulty": "Advanced",
-      "coachCommand": "High-quality muscle-up skill development, pulling power and grip endurance.",
+      "coachCommand": "Build front-lever foundation, explosive pulling, strict pull-up strength and grip. Direct muscle-up work is optional.",
       "blocks": [
         {
           "id": "PH-CODEX-FG2-P01-D02-AM-WARMUP",
@@ -1918,7 +1973,7 @@
             "Band Lat / Shoulder Activation — 1–2 × 10–15",
             "Easy Dead Hang — 1 × 15–20 sec",
             "Easy Strict Pull-Up — 1 × 3–5",
-            "Low-Effort Assisted Muscle-Up Practice — 1–2 × 1–2"
+            "OPTIONAL — Low-Effort Assisted Muscle-Up Practice — 1–2 × 1–2"
           ],
           "sourceRule": "Warm the GH shoulder, scapulae, elbows, lats and grip without reducing pulling power.",
           "countsTowardWorkingVolume": false
@@ -1953,9 +2008,9 @@
       "exercises": [
         {
           "recordID": "PH-CODEX-FG2-P01-D02-AM-E01",
-          "recordType": "exercise",
+          "recordType": "optionalExercise",
           "sourceName": "Band-Assisted Bar Muscle-Up",
-          "displayName": "Band-Assisted Bar Muscle-Up",
+          "displayName": "OPTIONAL — Band-Assisted Bar Muscle-Up",
           "canonicalName": null,
           "syncKey": null,
           "resolutionStatus": "needsUserResolution",
@@ -2040,7 +2095,12 @@
           "sourceReferenceLines": [],
           "isWorkingExercise": true,
           "countsTowardWorkingVolume": true,
-          "countsTowardProgressiveOverload": true
+          "countsTowardProgressiveOverload": true,
+          "isOptional": true,
+          "optionalReason": "Phase 1 now prioritizes Planche + Front Lever and pulling-strength development; direct muscle-up work is retained for later/optional use.",
+          "optionalExecutionRule": "Skip when not being performed. Skipping this optional record does not invalidate the Tome.",
+          "prescriptionKind": "repetitionBased",
+          "restStatus": "prescribedRange"
         },
         {
           "recordID": "PH-CODEX-FG2-P01-D02-AM-E02",
@@ -2124,7 +2184,147 @@
           "sourceReferenceLines": [],
           "isWorkingExercise": true,
           "countsTowardWorkingVolume": true,
-          "countsTowardProgressiveOverload": true
+          "countsTowardProgressiveOverload": true,
+          "prescriptionKind": "repetitionBased",
+          "restStatus": "prescribedExact"
+        },
+        {
+          "recordID": "PH-CODEX-FG2-P01-D02-AM-FL01",
+          "recordType": "exercise",
+          "sourceName": "Front Lever Entry Progression Hold",
+          "displayName": "Front Lever Entry Progression Hold",
+          "canonicalName": null,
+          "syncKey": null,
+          "resolutionStatus": "needsUserResolution",
+          "resolutionReasons": [
+            "productionIdentity"
+          ],
+          "sourceSection": "WORKING SESSION",
+          "blockID": "PH-CODEX-FG2-P01-D02-AM-MAIN",
+          "order": 3,
+          "groupID": null,
+          "groupOrder": null,
+          "rawPrescription": "Sets: 4 • Time: 3–8 sec/working hold • Rest: 90–120 sec • Intent: Beginner Front Lever position learning + straight-arm lever strength",
+          "sets": 4,
+          "sourceSetsText": "4",
+          "setRangeLow": null,
+          "setRangeHigh": null,
+          "reps": "3–8 sec/working hold",
+          "restSeconds": null,
+          "restRangeLow": 90,
+          "restRangeHigh": 120,
+          "load": null,
+          "rpe": null,
+          "rpeLow": null,
+          "rpeHigh": null,
+          "rir": null,
+          "rirLow": null,
+          "rirHigh": null,
+          "side": null,
+          "intent": "Beginner Front Lever position learning + straight-arm lever strength",
+          "equipment": "Multi-grip pull-up station",
+          "transitionText": null,
+          "durationSeconds": null,
+          "durationRangeLowSeconds": null,
+          "durationRangeHighSeconds": null,
+          "progression": "Start at the easiest variation that allows locked elbows, controlled scapular depression, and a stable trunk. Progress from assisted/tight-tuck holds to a clean unassisted tuck only after repeated 3–8 second holds are controlled. Increase clean hold time before lengthening the lever. Advanced tuck is not required in Phase 1.",
+          "regression": "If an unassisted tight tuck cannot be held cleanly for about 3 seconds, use a safely secured band-assisted or feet/suspension-assisted tight tuck. If even the assisted position loses elbow lock or scapular control, perform the Straight-Arm Front-Lever Scapular Pull only for that session.",
+          "setup": [
+            "Use a secure pull-up handle with enough clearance for the body.",
+            "Begin from a controlled hang with elbows fully locked.",
+            "Brace the trunk and lightly posteriorly tilt the pelvis.",
+            "Depress the shoulders away from the ears before moving into the lever position.",
+            "Choose the easiest entry variation that lets you keep straight elbows and control: assisted tight tuck first if needed; unassisted tight tuck only when ready."
+          ],
+          "howTo": [
+            "Keep the elbows straight for the entire working hold.",
+            "Use the lats and shoulder girdle to create shoulder extension while keeping the shoulders depressed.",
+            "Bring the knees into a very compact tuck and raise the hips only as high as you can without losing position.",
+            "Hold for 3–8 clean seconds at your current progression level.",
+            "End the hold immediately if the elbows bend, the shoulders shrug, the hips collapse, or you have to swing into position.",
+            "Lower under control and rest 90–120 seconds before the next working set."
+          ],
+          "setupStatus": "prescribed",
+          "howToStatus": "prescribed",
+          "sourceInstructionFormat": "separate",
+          "keyCues": [],
+          "avoid": [
+            "Bent elbows turning the hold into a row.",
+            "Hips dropping far below the intended lever line.",
+            "Losing scapular control.",
+            "Contacting the station frame."
+          ],
+          "fallback": [],
+          "priority": [],
+          "coachingNotes": [
+            "AVOID: Bent elbows turning the hold into a row.",
+            "AVOID: Hips dropping far below the intended lever line.",
+            "AVOID: Losing scapular control.",
+            "AVOID: Contacting the station frame."
+          ],
+          "substitutions": [],
+          "conditions": [
+            "BEGINNER FRONT-LEVER BASELINE: no prior direct Front Lever training.",
+            "A clean unassisted tuck Front Lever is a progression target, not an assumed starting ability.",
+            "Failed or uncontrolled attempts do not count as working holds.",
+            "Use the same progression level on Tuesday and Saturday until it is repeatably controlled."
+          ],
+          "weekOverrides": [
+            {
+              "weekNumbers": [
+                1,
+                2
+              ],
+              "rule": "Learning block: use assisted or very tight tuck as needed. Favor 3–5 second clean holds; do not force an unassisted tuck."
+            },
+            {
+              "weekNumbers": [
+                3
+              ],
+              "rule": "If the current variation is repeatably clean, build toward 5–8 second holds without changing leverage."
+            },
+            {
+              "weekNumbers": [
+                4
+              ],
+              "rule": "Deload: reduce to 2 working sets and use an easier progression than the hardest clean Week-3 variation."
+            },
+            {
+              "weekNumbers": [
+                5,
+                6,
+                7
+              ],
+              "rule": "Build: first increase repeatable hold quality/time; then reduce assistance or move from assisted tight tuck to clean unassisted tuck. Do not rush to advanced tuck."
+            },
+            {
+              "weekNumbers": [
+                8
+              ],
+              "rule": "Consolidation/test: record the cleanest progression level and best technically valid hold. No requirement to reach advanced tuck."
+            }
+          ],
+          "stopRules": [
+            "Stop the hold if either elbow bends.",
+            "Stop or regress if the shoulders shrug and scapular depression cannot be maintained.",
+            "Stop or regress if the hips drop enough that the intended lever position is lost.",
+            "Stop if swinging or momentum is required to enter the hold.",
+            "Stop for sharp or unusual shoulder, elbow, wrist, or back pain."
+          ],
+          "sourceReferenceLines": [],
+          "isWorkingExercise": true,
+          "countsTowardWorkingVolume": true,
+          "countsTowardProgressiveOverload": true,
+          "isOptional": false,
+          "prescriptionKind": "progressionGatedTimedSet",
+          "restStatus": "prescribedRange",
+          "frontLeverProgressionGate": {
+            "baseline": "No prior direct Front Lever training.",
+            "startingLevel": "Use the easiest clean assisted/tight-tuck variation.",
+            "unassistedTuckGate": "Attempt/use as working variation only when a clean ~3 second hold is possible with locked elbows and controlled scapular/trunk position.",
+            "advanceRule": "Own repeated clean 3–8 second holds before reducing assistance or lengthening leverage.",
+            "phase1Ceiling": "Clean tuck Front Lever development; advanced tuck is optional only if naturally ready, never required."
+          }
         },
         {
           "recordID": "PH-CODEX-FG2-P01-D02-AM-E03",
@@ -2137,7 +2337,7 @@
           "resolutionReasons": [],
           "sourceSection": "WORKING SESSION",
           "blockID": "PH-CODEX-FG2-P01-D02-AM-MAIN",
-          "order": 3,
+          "order": 4,
           "groupID": null,
           "groupOrder": null,
           "rawPrescription": "Sets: 4 • Reps: 5–6 • Rest: 2 min • RIR: ~2",
@@ -2208,13 +2408,15 @@
           "sourceReferenceLines": [],
           "isWorkingExercise": true,
           "countsTowardWorkingVolume": true,
-          "countsTowardProgressiveOverload": true
+          "countsTowardProgressiveOverload": true,
+          "prescriptionKind": "repetitionBased",
+          "restStatus": "prescribedExact"
         },
         {
-          "recordID": "PH-CODEX-FG2-P01-D02-AM-E04",
+          "recordID": "PH-CODEX-FG2-P01-D02-AM-FL02",
           "recordType": "exercise",
-          "sourceName": "Straight-Bar Dip",
-          "displayName": "Straight-Bar Dip",
+          "sourceName": "Straight-Arm Front-Lever Scapular Pull",
+          "displayName": "Straight-Arm Front-Lever Scapular Pull",
           "canonicalName": null,
           "syncKey": null,
           "resolutionStatus": "needsUserResolution",
@@ -2223,7 +2425,88 @@
           ],
           "sourceSection": "WORKING SESSION",
           "blockID": "PH-CODEX-FG2-P01-D02-AM-MAIN",
-          "order": 4,
+          "order": 5,
+          "groupID": null,
+          "groupOrder": null,
+          "rawPrescription": "Sets: 3 • Reps: 5–8 • Rest: 75–90 sec • Intent: Scapular depression + straight-arm lat strength",
+          "sets": 3,
+          "sourceSetsText": "3",
+          "setRangeLow": null,
+          "setRangeHigh": null,
+          "reps": "5–8",
+          "restSeconds": null,
+          "restRangeLow": 75,
+          "restRangeHigh": 90,
+          "load": null,
+          "rpe": null,
+          "rpeLow": null,
+          "rpeHigh": null,
+          "rir": null,
+          "rirLow": null,
+          "rirHigh": null,
+          "side": null,
+          "intent": "Scapular depression + straight-arm lat strength",
+          "equipment": "Multi-grip pull-up station",
+          "transitionText": null,
+          "durationSeconds": null,
+          "durationRangeLowSeconds": null,
+          "durationRangeHighSeconds": null,
+          "progression": "Increase control and range before adding volume.",
+          "regression": "Perform smaller-range straight-arm scapular pulls from a normal active hang.",
+          "setup": [
+            "Hang with elbows locked.",
+            "Set ribs and pelvis into a controlled hollow position.",
+            "Keep neck neutral and shoulders away from the ears."
+          ],
+          "howTo": [
+            "Without bending the elbows, pull the shoulders down and slightly back.",
+            "Use the lats to move the torso through a small controlled arc toward the beginning of a lever.",
+            "Pause briefly, then return slowly."
+          ],
+          "setupStatus": "prescribed",
+          "howToStatus": "prescribed",
+          "sourceInstructionFormat": "separate",
+          "keyCues": [],
+          "avoid": [
+            "Bending the elbows.",
+            "Jerking from the shoulders.",
+            "Turning the repetition into a swinging pull-up."
+          ],
+          "fallback": [],
+          "priority": [],
+          "coachingNotes": [
+            "AVOID: Bending the elbows.",
+            "AVOID: Jerking from the shoulders.",
+            "AVOID: Turning the repetition into a swinging pull-up."
+          ],
+          "substitutions": [],
+          "conditions": [],
+          "weekOverrides": [],
+          "stopRules": [
+            "Stop if straight-arm position cannot be maintained or shoulder discomfort exceeds normal training stress."
+          ],
+          "sourceReferenceLines": [],
+          "isWorkingExercise": true,
+          "countsTowardWorkingVolume": true,
+          "countsTowardProgressiveOverload": true,
+          "isOptional": false,
+          "prescriptionKind": "repetitionBased",
+          "restStatus": "prescribedRange"
+        },
+        {
+          "recordID": "PH-CODEX-FG2-P01-D02-AM-E04",
+          "recordType": "optionalExercise",
+          "sourceName": "Straight-Bar Dip",
+          "displayName": "OPTIONAL — Straight-Bar Dip",
+          "canonicalName": null,
+          "syncKey": null,
+          "resolutionStatus": "needsUserResolution",
+          "resolutionReasons": [
+            "productionIdentity"
+          ],
+          "sourceSection": "WORKING SESSION",
+          "blockID": "PH-CODEX-FG2-P01-D02-AM-MAIN",
+          "order": 6,
           "groupID": null,
           "groupOrder": null,
           "rawPrescription": "Sets: 3 • Reps: 5–8 • Rest: 90–120 sec",
@@ -2300,7 +2583,12 @@
           "sourceReferenceLines": [],
           "isWorkingExercise": true,
           "countsTowardWorkingVolume": true,
-          "countsTowardProgressiveOverload": true
+          "countsTowardProgressiveOverload": true,
+          "isOptional": true,
+          "optionalReason": "Dip work is retained unchanged but is optional during the current Phase-1 execution.",
+          "optionalExecutionRule": "Skip when not being performed. Skipping this optional record does not invalidate the Tome.",
+          "prescriptionKind": "repetitionBased",
+          "restStatus": "prescribedRange"
         },
         {
           "recordID": "PH-CODEX-FG2-P01-D02-AM-E05",
@@ -2315,7 +2603,7 @@
           ],
           "sourceSection": "WORKING SESSION",
           "blockID": "PH-CODEX-FG2-P01-D02-AM-MAIN",
-          "order": 5,
+          "order": 7,
           "groupID": null,
           "groupOrder": null,
           "rawPrescription": "Sets: 3 • Time: 30–45 sec • Rest: 60–90 sec • Intent: Grip endurance",
@@ -2383,10 +2671,12 @@
           "sourceReferenceLines": [],
           "isWorkingExercise": true,
           "countsTowardWorkingVolume": true,
-          "countsTowardProgressiveOverload": true
+          "countsTowardProgressiveOverload": true,
+          "prescriptionKind": "timedSet",
+          "restStatus": "prescribedRange"
         }
       ],
-      "sourceIntent": "High-quality muscle-up skill development, pulling power and grip endurance.",
+      "sourceIntent": "Build front-lever foundation, explosive pulling, strict pull-up strength and grip. Direct muscle-up work is optional.",
       "sourceWarmupRecords": [
         {
           "recordID": "PH-CODEX-FG2-P01-D02-AM-WU01",
@@ -2470,10 +2760,10 @@
         },
         {
           "recordID": "PH-CODEX-FG2-P01-D02-AM-WU06",
-          "recordType": "warmupSourceRecord",
+          "recordType": "optionalWarmupSourceRecord",
           "order": 6,
           "sourceName": "Low-Effort Assisted Muscle-Up Practice",
-          "displayName": "Low-Effort Assisted Muscle-Up Practice",
+          "displayName": "OPTIONAL — Low-Effort Assisted Muscle-Up Practice",
           "rawPrescription": "1–2 × 1–2",
           "sourceText": "Low-Effort Assisted Muscle-Up Practice — 1–2 × 1–2",
           "sourceSection": "WARM-UP",
@@ -2482,7 +2772,9 @@
           "sourceProgram": "Freak-God 2.0 Phase 1",
           "isWorkingExercise": false,
           "countsTowardWorkingVolume": false,
-          "countsTowardProgressiveOverload": false
+          "countsTowardProgressiveOverload": false,
+          "isOptional": true,
+          "optionalReason": "Direct muscle-up practice is optional during the current Phase-1 skill emphasis."
         }
       ],
       "warmupRule": "Keep every warm-up rep easy.",
@@ -2577,7 +2869,7 @@
           "Band Lat / Shoulder Activation — 1–2 × 10–15",
           "Easy Dead Hang — 1 × 15–20 sec",
           "Easy Strict Pull-Up — 1 × 3–5",
-          "Low-Effort Assisted Muscle-Up Practice — 1–2 × 1–2"
+          "OPTIONAL — Low-Effort Assisted Muscle-Up Practice — 1–2 × 1–2"
         ],
         "sourceRule": "Warm the GH shoulder, scapulae, elbows, lats and grip without reducing pulling power.",
         "isWorkingExercise": false,
@@ -2783,7 +3075,9 @@
           "sourceReferenceLines": [],
           "isWorkingExercise": true,
           "countsTowardWorkingVolume": true,
-          "countsTowardProgressiveOverload": true
+          "countsTowardProgressiveOverload": true,
+          "prescriptionKind": "repetitionBased",
+          "restStatus": "prescribedRange"
         },
         {
           "recordID": "PH-CODEX-FG2-P01-D02-PM-E02",
@@ -2851,13 +3145,15 @@
           "sourceReferenceLines": [],
           "isWorkingExercise": true,
           "countsTowardWorkingVolume": true,
-          "countsTowardProgressiveOverload": true
+          "countsTowardProgressiveOverload": true,
+          "prescriptionKind": "repetitionBased",
+          "restStatus": "prescribedRange"
         },
         {
           "recordID": "PH-CODEX-FG2-P01-D02-PM-E03",
-          "recordType": "exercise",
+          "recordType": "optionalExercise",
           "sourceName": "Weighted Dip",
-          "displayName": "Weighted Dip",
+          "displayName": "OPTIONAL — Weighted Dip",
           "canonicalName": null,
           "syncKey": null,
           "resolutionStatus": "needsUserResolution",
@@ -2934,7 +3230,12 @@
           "sourceReferenceLines": [],
           "isWorkingExercise": true,
           "countsTowardWorkingVolume": true,
-          "countsTowardProgressiveOverload": true
+          "countsTowardProgressiveOverload": true,
+          "isOptional": true,
+          "optionalReason": "Dip work is retained unchanged but is optional during the current Phase-1 execution.",
+          "optionalExecutionRule": "Skip when not being performed. Skipping this optional record does not invalidate the Tome.",
+          "prescriptionKind": "repetitionBased",
+          "restStatus": "prescribedExact"
         },
         {
           "recordID": "PH-CODEX-FG2-P01-D02-PM-E04",
@@ -3013,7 +3314,9 @@
           "sourceReferenceLines": [],
           "isWorkingExercise": true,
           "countsTowardWorkingVolume": true,
-          "countsTowardProgressiveOverload": true
+          "countsTowardProgressiveOverload": true,
+          "prescriptionKind": "repetitionBased",
+          "restStatus": "prescribedRange"
         },
         {
           "recordID": "PH-CODEX-FG2-P01-D02-PM-E05",
@@ -3096,7 +3399,9 @@
           "sourceReferenceLines": [],
           "isWorkingExercise": true,
           "countsTowardWorkingVolume": true,
-          "countsTowardProgressiveOverload": true
+          "countsTowardProgressiveOverload": true,
+          "prescriptionKind": "repetitionBased",
+          "restStatus": "prescribedRange"
         },
         {
           "recordID": "PH-CODEX-FG2-P01-D02-PM-E06",
@@ -3162,7 +3467,9 @@
           "sourceReferenceLines": [],
           "isWorkingExercise": true,
           "countsTowardWorkingVolume": true,
-          "countsTowardProgressiveOverload": true
+          "countsTowardProgressiveOverload": true,
+          "prescriptionKind": "repetitionBased",
+          "restStatus": "supersetTransitionOnly; rest occurs after final member"
         },
         {
           "recordID": "PH-CODEX-FG2-P01-D02-PM-E07",
@@ -3228,7 +3535,9 @@
           "sourceReferenceLines": [],
           "isWorkingExercise": true,
           "countsTowardWorkingVolume": true,
-          "countsTowardProgressiveOverload": true
+          "countsTowardProgressiveOverload": true,
+          "prescriptionKind": "repetitionBased",
+          "restStatus": "prescribedAfterSupersetPair"
         }
       ],
       "sourceIntent": "Build upper chest, lats, delts and arms while maintaining pressing strength.",
@@ -3511,11 +3820,11 @@
       "recursWeekly": true,
       "dayNumber": 3,
       "scheduleLabel": "THURSDAY • DAY 3 AM",
-      "title": "ATHLETIC POWER + MUSCLE-UP MICRODOSE",
+      "title": "ATHLETIC POWER + OPTIONAL MUSCLE-UP MICRODOSE",
       "focus": "Explosive Power / Jumping / Acceleration / MU Technique",
       "duration": "40–50 min",
       "difficulty": "Advanced",
-      "coachCommand": "Explosive output, reactive athleticism, acceleration and secondary muscle-up exposure. Power rule: Stop explosive repetitions when output or landing quality clearly declines.",
+      "coachCommand": "Explosive output, reactive athleticism and acceleration. The existing muscle-up microdose is retained as optional work.",
       "blocks": [
         {
           "id": "PH-CODEX-FG2-P01-D03-AM-WARMUP",
@@ -3565,9 +3874,9 @@
       "exercises": [
         {
           "recordID": "PH-CODEX-FG2-P01-D03-AM-E01",
-          "recordType": "exercise",
+          "recordType": "optionalExercise",
           "sourceName": "Band-Assisted Muscle-Up",
-          "displayName": "Band-Assisted Muscle-Up",
+          "displayName": "OPTIONAL — Band-Assisted Muscle-Up",
           "canonicalName": null,
           "syncKey": null,
           "resolutionStatus": "needsUserResolution",
@@ -3639,7 +3948,12 @@
           ],
           "isWorkingExercise": true,
           "countsTowardWorkingVolume": true,
-          "countsTowardProgressiveOverload": true
+          "countsTowardProgressiveOverload": true,
+          "isOptional": true,
+          "optionalReason": "Phase 1 now prioritizes Planche + Front Lever and pulling-strength development; direct muscle-up work is retained for later/optional use.",
+          "optionalExecutionRule": "Skip when not being performed. Skipping this optional record does not invalidate the Tome.",
+          "prescriptionKind": "repetitionBased",
+          "restStatus": "prescribedExact"
         },
         {
           "recordID": "PH-CODEX-FG2-P01-D03-AM-E02",
@@ -3726,7 +4040,9 @@
           "sourceReferenceLines": [],
           "isWorkingExercise": true,
           "countsTowardWorkingVolume": true,
-          "countsTowardProgressiveOverload": true
+          "countsTowardProgressiveOverload": true,
+          "prescriptionKind": "repetitionBased",
+          "restStatus": "prescribedRange"
         },
         {
           "recordID": "PH-CODEX-FG2-P01-D03-AM-E03",
@@ -3809,7 +4125,9 @@
           "sourceReferenceLines": [],
           "isWorkingExercise": true,
           "countsTowardWorkingVolume": true,
-          "countsTowardProgressiveOverload": true
+          "countsTowardProgressiveOverload": true,
+          "prescriptionKind": "repetitionBased",
+          "restStatus": "prescribedRange"
         },
         {
           "recordID": "PH-CODEX-FG2-P01-D03-AM-E04",
@@ -3894,7 +4212,9 @@
           "sourceReferenceLines": [],
           "isWorkingExercise": true,
           "countsTowardWorkingVolume": true,
-          "countsTowardProgressiveOverload": true
+          "countsTowardProgressiveOverload": true,
+          "prescriptionKind": "repetitionBased",
+          "restStatus": "prescribedRange"
         },
         {
           "recordID": "PH-CODEX-FG2-P01-D03-AM-E05",
@@ -3980,7 +4300,9 @@
           "sourceReferenceLines": [],
           "isWorkingExercise": true,
           "countsTowardWorkingVolume": true,
-          "countsTowardProgressiveOverload": true
+          "countsTowardProgressiveOverload": true,
+          "prescriptionKind": "repetitionBased",
+          "restStatus": "prescribedRange"
         },
         {
           "recordID": "PH-CODEX-FG2-P01-D03-AM-E06",
@@ -4000,13 +4322,13 @@
           "groupOrder": null,
           "rawPrescription": "Recovery: 75–90 sec walking between accelerations",
           "sets": null,
-          "sourceSetsText": null,
+          "sourceSetsText": "Week-specific; see weekOverrides",
           "setRangeLow": null,
           "setRangeHigh": null,
-          "reps": "",
+          "reps": "Week-specific timed efforts; see weekOverrides",
           "restSeconds": null,
-          "restRangeLow": null,
-          "restRangeHigh": null,
+          "restRangeLow": 75,
+          "restRangeHigh": 90,
           "load": null,
           "rpe": null,
           "rpeLow": null,
@@ -4114,9 +4436,10 @@
               ],
               "rawPrescription": "Reduced/test-specific volume • Recovery 75–90 sec walking",
               "sets": null,
-              "reps": "",
+              "reps": "Reduced/test-specific — exact effort duration not separately prescribed",
               "restRangeLow": 75,
-              "restRangeHigh": 90
+              "restRangeHigh": 90,
+              "prescriptionStatus": "notPrescribedExact"
             }
           ],
           "stopRules": [
@@ -4127,10 +4450,12 @@
           "sourceReferenceLines": [],
           "isWorkingExercise": true,
           "countsTowardWorkingVolume": true,
-          "countsTowardProgressiveOverload": true
+          "countsTowardProgressiveOverload": true,
+          "prescriptionKind": "weekSpecificIntervals",
+          "restStatus": "prescribedRange; exact work duration/effort count is week-specific"
         }
       ],
-      "sourceIntent": "Explosive output, reactive athleticism, acceleration and secondary muscle-up exposure.",
+      "sourceIntent": "Explosive output, reactive athleticism and acceleration. The existing muscle-up microdose is retained as optional work.",
       "powerRule": "Stop explosive repetitions when output or landing quality clearly declines.",
       "sourceWarmupRecords": [
         {
@@ -4521,7 +4846,9 @@
           "sourceReferenceLines": [],
           "isWorkingExercise": true,
           "countsTowardWorkingVolume": true,
-          "countsTowardProgressiveOverload": true
+          "countsTowardProgressiveOverload": true,
+          "prescriptionKind": "repetitionBased",
+          "restStatus": "prescribedExact"
         },
         {
           "recordID": "PH-CODEX-FG2-P01-D03-PM-E02",
@@ -4604,7 +4931,9 @@
           "sourceReferenceLines": [],
           "isWorkingExercise": true,
           "countsTowardWorkingVolume": true,
-          "countsTowardProgressiveOverload": true
+          "countsTowardProgressiveOverload": true,
+          "prescriptionKind": "repetitionBased",
+          "restStatus": "prescribedRange"
         },
         {
           "recordID": "PH-CODEX-FG2-P01-D03-PM-E03",
@@ -4686,7 +5015,9 @@
           "sourceReferenceLines": [],
           "isWorkingExercise": true,
           "countsTowardWorkingVolume": true,
-          "countsTowardProgressiveOverload": true
+          "countsTowardProgressiveOverload": true,
+          "prescriptionKind": "repetitionBased",
+          "restStatus": "prescribedExact"
         },
         {
           "recordID": "PH-CODEX-FG2-P01-D03-PM-E04",
@@ -4762,7 +5093,9 @@
           "isWorkingExercise": true,
           "countsTowardWorkingVolume": true,
           "countsTowardProgressiveOverload": true,
-          "sourceIntent": "Hip-extension endurance"
+          "sourceIntent": "Hip-extension endurance",
+          "prescriptionKind": "repetitionBased",
+          "restStatus": "prescribedExact"
         },
         {
           "recordID": "PH-CODEX-FG2-P01-D03-PM-E05",
@@ -4849,7 +5182,9 @@
           "notes": "Only perform this if a safe 45° back-extension station is available. If the station is not available, OMIT THIS EXERCISE DURING PHASE 1. Do not invent or force an unsafe substitute.",
           "isWorkingExercise": true,
           "countsTowardWorkingVolume": true,
-          "countsTowardProgressiveOverload": true
+          "countsTowardProgressiveOverload": true,
+          "prescriptionKind": "repetitionBased",
+          "restStatus": "prescribedRange"
         },
         {
           "recordID": "PH-CODEX-FG2-P01-D03-PM-E06",
@@ -4920,7 +5255,9 @@
           "sourceReferenceLines": [],
           "isWorkingExercise": true,
           "countsTowardWorkingVolume": true,
-          "countsTowardProgressiveOverload": true
+          "countsTowardProgressiveOverload": true,
+          "prescriptionKind": "timedSet",
+          "restStatus": "prescribedRange"
         },
         {
           "recordID": "PH-CODEX-FG2-P01-D03-PM-E07",
@@ -5002,7 +5339,9 @@
           "sourceReferenceLines": [],
           "isWorkingExercise": true,
           "countsTowardWorkingVolume": true,
-          "countsTowardProgressiveOverload": true
+          "countsTowardProgressiveOverload": true,
+          "prescriptionKind": "timedSet",
+          "restStatus": "prescribedRange"
         },
         {
           "recordID": "PH-CODEX-FG2-P01-D03-PM-E08",
@@ -5076,7 +5415,9 @@
           ],
           "isWorkingExercise": true,
           "countsTowardWorkingVolume": true,
-          "countsTowardProgressiveOverload": true
+          "countsTowardProgressiveOverload": true,
+          "prescriptionKind": "repetitionBased",
+          "restStatus": "prescribedRange"
         }
       ],
       "sourceWarmupRecords": [
@@ -5477,7 +5818,9 @@
           ],
           "isWorkingExercise": true,
           "countsTowardWorkingVolume": true,
-          "countsTowardProgressiveOverload": true
+          "countsTowardProgressiveOverload": true,
+          "prescriptionKind": "timedSet",
+          "restStatus": "prescribedRange"
         },
         {
           "recordID": "PH-CODEX-FG2-P01-D04-AM-E04",
@@ -5568,7 +5911,228 @@
           "sourceReferenceLines": [],
           "isWorkingExercise": true,
           "countsTowardWorkingVolume": true,
-          "countsTowardProgressiveOverload": true
+          "countsTowardProgressiveOverload": true,
+          "prescriptionKind": "timedSet",
+          "restStatus": "prescribedRange"
+        },
+        {
+          "recordID": "PH-CODEX-FG2-P01-D04-AM-FL01",
+          "recordType": "exercise",
+          "sourceName": "Front Lever Entry Progression Hold",
+          "displayName": "Front Lever Entry Progression Hold",
+          "canonicalName": null,
+          "syncKey": null,
+          "resolutionStatus": "needsUserResolution",
+          "resolutionReasons": [
+            "productionIdentity"
+          ],
+          "sourceSection": "WORKING SESSION",
+          "blockID": "PH-CODEX-FG2-P01-D04-AM-MAIN",
+          "order": 3,
+          "groupID": null,
+          "groupOrder": null,
+          "rawPrescription": "Sets: 3 • Time: 3–8 sec/working hold • Rest: 90–120 sec • Intent: Beginner Front Lever technique/strength reinforcement",
+          "sets": 3,
+          "sourceSetsText": "3",
+          "setRangeLow": null,
+          "setRangeHigh": null,
+          "reps": "3–8 sec/working hold",
+          "restSeconds": null,
+          "restRangeLow": 90,
+          "restRangeHigh": 120,
+          "load": null,
+          "rpe": null,
+          "rpeLow": null,
+          "rpeHigh": null,
+          "rir": null,
+          "rirLow": null,
+          "rirHigh": null,
+          "side": null,
+          "intent": "Beginner Front Lever technique/strength reinforcement",
+          "equipment": "Multi-grip pull-up station",
+          "transitionText": null,
+          "durationSeconds": null,
+          "durationRangeLowSeconds": null,
+          "durationRangeHighSeconds": null,
+          "progression": "Start at the easiest variation that allows locked elbows, controlled scapular depression, and a stable trunk. Progress from assisted/tight-tuck holds to a clean unassisted tuck only after repeated 3–8 second holds are controlled. Increase clean hold time before lengthening the lever. Advanced tuck is not required in Phase 1.",
+          "regression": "If an unassisted tight tuck cannot be held cleanly for about 3 seconds, use a safely secured band-assisted or feet/suspension-assisted tight tuck. If even the assisted position loses elbow lock or scapular control, perform the Straight-Arm Front-Lever Scapular Pull only for that session.",
+          "setup": [
+            "Use a secure pull-up handle with enough clearance for the body.",
+            "Begin from a controlled hang with elbows fully locked.",
+            "Brace the trunk and lightly posteriorly tilt the pelvis.",
+            "Depress the shoulders away from the ears before moving into the lever position.",
+            "Choose the easiest entry variation that lets you keep straight elbows and control: assisted tight tuck first if needed; unassisted tight tuck only when ready."
+          ],
+          "howTo": [
+            "Keep the elbows straight for the entire working hold.",
+            "Use the lats and shoulder girdle to create shoulder extension while keeping the shoulders depressed.",
+            "Bring the knees into a very compact tuck and raise the hips only as high as you can without losing position.",
+            "Hold for 3–8 clean seconds at your current progression level.",
+            "End the hold immediately if the elbows bend, the shoulders shrug, the hips collapse, or you have to swing into position.",
+            "Lower under control and rest 90–120 seconds before the next working set."
+          ],
+          "setupStatus": "prescribed",
+          "howToStatus": "prescribed",
+          "sourceInstructionFormat": "separate",
+          "keyCues": [],
+          "avoid": [
+            "Bent elbows turning the hold into a row.",
+            "Hips dropping far below the intended lever line.",
+            "Losing scapular control.",
+            "Contacting the station frame."
+          ],
+          "fallback": [],
+          "priority": [],
+          "coachingNotes": [
+            "AVOID: Bent elbows turning the hold into a row.",
+            "AVOID: Hips dropping far below the intended lever line.",
+            "AVOID: Losing scapular control.",
+            "AVOID: Contacting the station frame."
+          ],
+          "substitutions": [],
+          "conditions": [
+            "BEGINNER FRONT-LEVER BASELINE: no prior direct Front Lever training.",
+            "A clean unassisted tuck Front Lever is a progression target, not an assumed starting ability.",
+            "Failed or uncontrolled attempts do not count as working holds.",
+            "Use the same progression level on Tuesday and Saturday until it is repeatably controlled."
+          ],
+          "weekOverrides": [
+            {
+              "weekNumbers": [
+                1,
+                2
+              ],
+              "rule": "Learning block: use assisted or very tight tuck as needed. Favor 3–5 second clean holds; do not force an unassisted tuck."
+            },
+            {
+              "weekNumbers": [
+                3
+              ],
+              "rule": "If the current variation is repeatably clean, build toward 5–8 second holds without changing leverage."
+            },
+            {
+              "weekNumbers": [
+                4
+              ],
+              "rule": "Deload: reduce to 2 working sets and use an easier progression than the hardest clean Week-3 variation."
+            },
+            {
+              "weekNumbers": [
+                5,
+                6,
+                7
+              ],
+              "rule": "Build: first increase repeatable hold quality/time; then reduce assistance or move from assisted tight tuck to clean unassisted tuck. Do not rush to advanced tuck."
+            },
+            {
+              "weekNumbers": [
+                8
+              ],
+              "rule": "Consolidation/test: record the cleanest progression level and best technically valid hold. No requirement to reach advanced tuck."
+            }
+          ],
+          "stopRules": [
+            "Stop the hold if either elbow bends.",
+            "Stop or regress if the shoulders shrug and scapular depression cannot be maintained.",
+            "Stop or regress if the hips drop enough that the intended lever position is lost.",
+            "Stop if swinging or momentum is required to enter the hold.",
+            "Stop for sharp or unusual shoulder, elbow, wrist, or back pain."
+          ],
+          "sourceReferenceLines": [],
+          "isWorkingExercise": true,
+          "countsTowardWorkingVolume": true,
+          "countsTowardProgressiveOverload": true,
+          "isOptional": false,
+          "prescriptionKind": "progressionGatedTimedSet",
+          "restStatus": "prescribedRange",
+          "frontLeverProgressionGate": {
+            "baseline": "No prior direct Front Lever training.",
+            "startingLevel": "Use the easiest clean assisted/tight-tuck variation.",
+            "unassistedTuckGate": "Attempt/use as working variation only when a clean ~3 second hold is possible with locked elbows and controlled scapular/trunk position.",
+            "advanceRule": "Own repeated clean 3–8 second holds before reducing assistance or lengthening leverage.",
+            "phase1Ceiling": "Clean tuck Front Lever development; advanced tuck is optional only if naturally ready, never required."
+          }
+        },
+        {
+          "recordID": "PH-CODEX-FG2-P01-D04-AM-FL02",
+          "recordType": "exercise",
+          "sourceName": "Straight-Arm Front-Lever Scapular Pull",
+          "displayName": "Straight-Arm Front-Lever Scapular Pull",
+          "canonicalName": null,
+          "syncKey": null,
+          "resolutionStatus": "needsUserResolution",
+          "resolutionReasons": [
+            "productionIdentity"
+          ],
+          "sourceSection": "WORKING SESSION",
+          "blockID": "PH-CODEX-FG2-P01-D04-AM-MAIN",
+          "order": 4,
+          "groupID": null,
+          "groupOrder": null,
+          "rawPrescription": "Sets: 2 • Reps: 5–8 • Rest: 75–90 sec • Intent: Straight-arm scapular reinforcement",
+          "sets": 2,
+          "sourceSetsText": "2",
+          "setRangeLow": null,
+          "setRangeHigh": null,
+          "reps": "5–8",
+          "restSeconds": null,
+          "restRangeLow": 75,
+          "restRangeHigh": 90,
+          "load": null,
+          "rpe": null,
+          "rpeLow": null,
+          "rpeHigh": null,
+          "rir": null,
+          "rirLow": null,
+          "rirHigh": null,
+          "side": null,
+          "intent": "Scapular depression + straight-arm lat strength",
+          "equipment": "Multi-grip pull-up station",
+          "transitionText": null,
+          "durationSeconds": null,
+          "durationRangeLowSeconds": null,
+          "durationRangeHighSeconds": null,
+          "progression": "Increase control and range before adding volume.",
+          "regression": "Perform smaller-range straight-arm scapular pulls from a normal active hang.",
+          "setup": [
+            "Hang with elbows locked.",
+            "Set ribs and pelvis into a controlled hollow position.",
+            "Keep neck neutral and shoulders away from the ears."
+          ],
+          "howTo": [
+            "Without bending the elbows, pull the shoulders down and slightly back.",
+            "Use the lats to move the torso through a small controlled arc toward the beginning of a lever.",
+            "Pause briefly, then return slowly."
+          ],
+          "setupStatus": "prescribed",
+          "howToStatus": "prescribed",
+          "sourceInstructionFormat": "separate",
+          "keyCues": [],
+          "avoid": [
+            "Bending the elbows.",
+            "Jerking from the shoulders.",
+            "Turning the repetition into a swinging pull-up."
+          ],
+          "fallback": [],
+          "priority": [],
+          "coachingNotes": [
+            "AVOID: Bending the elbows.",
+            "AVOID: Jerking from the shoulders.",
+            "AVOID: Turning the repetition into a swinging pull-up."
+          ],
+          "substitutions": [],
+          "conditions": [],
+          "weekOverrides": [],
+          "stopRules": [
+            "Stop if straight-arm position cannot be maintained or shoulder discomfort exceeds normal training stress."
+          ],
+          "sourceReferenceLines": [],
+          "isWorkingExercise": true,
+          "countsTowardWorkingVolume": true,
+          "countsTowardProgressiveOverload": true,
+          "isOptional": false,
+          "prescriptionKind": "repetitionBased",
+          "restStatus": "prescribedRange"
         },
         {
           "recordID": "PH-CODEX-FG2-P01-D04-AM-E05",
@@ -5583,7 +6147,7 @@
           ],
           "sourceSection": "WORKING SESSION",
           "blockID": "PH-CODEX-FG2-P01-D04-AM-MAIN",
-          "order": 3,
+          "order": 5,
           "groupID": null,
           "groupOrder": null,
           "rawPrescription": "Sets: 3 • Reps: 5–8 • Rest: 90 sec",
@@ -5644,7 +6208,9 @@
           ],
           "isWorkingExercise": true,
           "countsTowardWorkingVolume": true,
-          "countsTowardProgressiveOverload": true
+          "countsTowardProgressiveOverload": true,
+          "prescriptionKind": "repetitionBased",
+          "restStatus": "prescribedExact"
         },
         {
           "recordID": "PH-CODEX-FG2-P01-D04-AM-E06",
@@ -5659,7 +6225,7 @@
           ],
           "sourceSection": "WORKING SESSION",
           "blockID": "PH-CODEX-FG2-P01-D04-AM-MAIN",
-          "order": 4,
+          "order": 6,
           "groupID": null,
           "groupOrder": null,
           "rawPrescription": "Time: 8–10 minutes",
@@ -5733,7 +6299,9 @@
           "sourceReferenceLines": [],
           "isWorkingExercise": true,
           "countsTowardWorkingVolume": true,
-          "countsTowardProgressiveOverload": true
+          "countsTowardProgressiveOverload": true,
+          "prescriptionKind": "timedPractice",
+          "restStatus": "selfSelectedWithinTimedPracticeBlock"
         },
         {
           "recordID": "PH-CODEX-FG2-P01-D04-AM-E07",
@@ -5746,7 +6314,7 @@
           "resolutionReasons": [],
           "sourceSection": "WORKING SESSION",
           "blockID": "PH-CODEX-FG2-P01-D04-AM-MAIN",
-          "order": 5,
+          "order": 7,
           "groupID": null,
           "groupOrder": null,
           "rawPrescription": "Sets: 3 • Reps: 3–6 • Rest: 2 min",
@@ -5817,7 +6385,9 @@
           "sourceReferenceLines": [],
           "isWorkingExercise": true,
           "countsTowardWorkingVolume": true,
-          "countsTowardProgressiveOverload": true
+          "countsTowardProgressiveOverload": true,
+          "prescriptionKind": "repetitionBased",
+          "restStatus": "prescribedExact"
         },
         {
           "recordID": "PH-CODEX-FG2-P01-D04-AM-E08",
@@ -5832,7 +6402,7 @@
           ],
           "sourceSection": "WORKING SESSION",
           "blockID": "PH-CODEX-FG2-P01-D04-AM-MAIN",
-          "order": 6,
+          "order": 8,
           "groupID": null,
           "groupOrder": null,
           "rawPrescription": "Sets: 4 • Time: 5–10 sec • Rest: 60–90 sec",
@@ -5891,7 +6461,9 @@
           "sourceReferenceLines": [],
           "isWorkingExercise": true,
           "countsTowardWorkingVolume": true,
-          "countsTowardProgressiveOverload": true
+          "countsTowardProgressiveOverload": true,
+          "prescriptionKind": "timedSet",
+          "restStatus": "prescribedRange"
         },
         {
           "recordID": "PH-CODEX-FG2-P01-D04-AM-E09",
@@ -5906,7 +6478,7 @@
           ],
           "sourceSection": "WORKING SESSION",
           "blockID": "PH-CODEX-FG2-P01-D04-AM-MAIN",
-          "order": 7,
+          "order": 9,
           "groupID": null,
           "groupOrder": null,
           "rawPrescription": "Sets: 3 • Reps: 3–5 • Rest: 90 sec",
@@ -5963,7 +6535,9 @@
           "sourceReferenceLines": [],
           "isWorkingExercise": true,
           "countsTowardWorkingVolume": true,
-          "countsTowardProgressiveOverload": true
+          "countsTowardProgressiveOverload": true,
+          "prescriptionKind": "repetitionBased",
+          "restStatus": "prescribedExact"
         }
       ],
       "sourceIntent": "Second weekly planche exposure plus handstand/HSPU and trunk-skill development.",
@@ -6388,7 +6962,9 @@
           "sourceReferenceLines": [],
           "isWorkingExercise": true,
           "countsTowardWorkingVolume": true,
-          "countsTowardProgressiveOverload": true
+          "countsTowardProgressiveOverload": true,
+          "prescriptionKind": "repetitionBased",
+          "restStatus": "prescribedRange"
         },
         {
           "recordID": "PH-CODEX-FG2-P01-D04-PM-E02",
@@ -6462,7 +7038,9 @@
           "sourceReferenceLines": [],
           "isWorkingExercise": true,
           "countsTowardWorkingVolume": true,
-          "countsTowardProgressiveOverload": true
+          "countsTowardProgressiveOverload": true,
+          "prescriptionKind": "repetitionBased",
+          "restStatus": "prescribedExact"
         },
         {
           "recordID": "PH-CODEX-FG2-P01-D04-PM-E03",
@@ -6543,7 +7121,9 @@
           "sourceReferenceLines": [],
           "isWorkingExercise": true,
           "countsTowardWorkingVolume": true,
-          "countsTowardProgressiveOverload": true
+          "countsTowardProgressiveOverload": true,
+          "prescriptionKind": "repetitionBased",
+          "restStatus": "prescribedExact"
         },
         {
           "recordID": "PH-CODEX-FG2-P01-D04-PM-E04",
@@ -6619,7 +7199,9 @@
           ],
           "isWorkingExercise": true,
           "countsTowardWorkingVolume": true,
-          "countsTowardProgressiveOverload": true
+          "countsTowardProgressiveOverload": true,
+          "prescriptionKind": "repetitionBased",
+          "restStatus": "prescribedRange"
         },
         {
           "recordID": "PH-CODEX-FG2-P01-D04-PM-E05",
@@ -6696,7 +7278,9 @@
           "sourceReferenceLines": [],
           "isWorkingExercise": true,
           "countsTowardWorkingVolume": true,
-          "countsTowardProgressiveOverload": true
+          "countsTowardProgressiveOverload": true,
+          "prescriptionKind": "repetitionBased",
+          "restStatus": "prescribedRange"
         },
         {
           "recordID": "PH-CODEX-FG2-P01-D04-PM-E06",
@@ -6761,7 +7345,9 @@
           "sourceReferenceLines": [],
           "isWorkingExercise": true,
           "countsTowardWorkingVolume": true,
-          "countsTowardProgressiveOverload": true
+          "countsTowardProgressiveOverload": true,
+          "prescriptionKind": "repetitionBased",
+          "restStatus": "supersetTransitionOnly; rest occurs after final member"
         },
         {
           "recordID": "PH-CODEX-FG2-P01-D04-PM-E07",
@@ -6828,7 +7414,9 @@
           "sourceReferenceLines": [],
           "isWorkingExercise": true,
           "countsTowardWorkingVolume": true,
-          "countsTowardProgressiveOverload": true
+          "countsTowardProgressiveOverload": true,
+          "prescriptionKind": "repetitionBased",
+          "restStatus": "prescribedAfterSupersetPair"
         },
         {
           "recordID": "PH-CODEX-FG2-P01-D04-PM-E08",
@@ -6900,7 +7488,9 @@
           "sourceReferenceLines": [],
           "isWorkingExercise": true,
           "countsTowardWorkingVolume": true,
-          "countsTowardProgressiveOverload": true
+          "countsTowardProgressiveOverload": true,
+          "prescriptionKind": "continuousTimedWork",
+          "restStatus": "notApplicableContinuousWork"
         }
       ],
       "sourceGroupDefinitions": [
@@ -7766,7 +8356,7 @@
           "Monday and Thursday lower-body work",
           "Tuesday upper-body work",
           "planche wrist stress",
-          "muscle-up elbow/shoulder stress",
+          "front-lever / pull-up elbow-shoulder stress; optional muscle-up stress if performed",
           "jumping/acceleration exposure",
           "reported soreness/stiffness",
           "Saturday readiness"
@@ -8052,7 +8642,8 @@
   },
   "programGoals": [
     "Preserve/build strength and muscle while reducing body mass.",
-    "Develop toward an unassisted bar muscle-up.",
+    "Build strict and explosive pull-up strength as the foundation for a later unassisted bar muscle-up.",
+    "Develop Front Lever foundation as a primary Phase-1 straight-arm pulling skill.",
     "Build long-term full-planche capacity.",
     "Maintain and improve explosiveness, jumping and acceleration.",
     "Maintain Freak-God physique development: delts, upper chest, lats, arms, abs, athletic legs and posterior chain.",
@@ -8070,7 +8661,7 @@
     },
     {
       "weekday": "Tuesday",
-      "amSession": "Muscle-Up Lab + Grip",
+      "amSession": "Pulling Strength + Front Lever Lab",
       "pmSession": "Upper Body Armor"
     },
     {
@@ -8080,7 +8671,7 @@
     },
     {
       "weekday": "Thursday",
-      "amSession": "Athletic Power + Muscle-Up Microdose",
+      "amSession": "Athletic Power + Optional Muscle-Up Microdose",
       "pmSession": "Athletic Lower + Hip/Trunk Endurance"
     },
     {
@@ -8090,7 +8681,7 @@
     },
     {
       "weekday": "Saturday",
-      "amSession": "Planche + Handstand Lab",
+      "amSession": "Planche + Front Lever + Handstand Lab",
       "pmSession": "Upper Power + Freak Pump"
     },
     {
@@ -8116,10 +8707,8 @@
     ],
     "week8ExpectedOutcomes": {
       "muscleUp": [
-        "improved assisted muscle-up quality",
-        "higher explosive pulling",
-        "stronger straight-bar support",
-        "a clearer route toward reduced assistance"
+        "direct muscle-up work retained as optional rather than a required Phase-1 outcome",
+        "stronger strict/explosive pulling foundation for later muscle-up conversion"
       ],
       "planche": [
         "improved wrist tolerance",
@@ -8159,6 +8748,11 @@
         "ankle/calf/tibialis capacity",
         "aerobic recovery",
         "active mobility"
+      ],
+      "frontLever": [
+        "cleaner straight-arm scapular control",
+        "established tuck-front-lever position",
+        "improved tuck-front-lever hold quality/duration"
       ]
     },
     "nextPhase": "Phase 2 then converts this foundation into greater relative strength and skill-specific performance."
@@ -8310,5 +8904,56 @@
     "ghostAIRoutineRepairPolicyEmbedded": true,
     "ghostAIRecoveryGenerationPolicyEmbedded": true,
     "permanentProgramID": "PH-CODEX-FG2-P01"
+  },
+  "importPrescriptionPolicy": {
+    "requireExplicitRepsOrTime": true,
+    "requireExplicitRestOrRestStatus": true,
+    "preserveRestRanges": true,
+    "preserveExactRestSeconds": true,
+    "preserveSupersetGroupRest": true,
+    "preserveWeekOverrides": true,
+    "doNotInventMissingPrescriptions": true,
+    "rule": "If a prescription is truly not exact in the source, encode that status explicitly instead of silently dropping the field. A rest range is a valid prescribed rest timer and must not be treated as missing."
+  },
+  "minimalSkillRevisionAudit": {
+    "result": "PASS",
+    "baseProgramID": "PH-CODEX-FG2-P01",
+    "baseExerciseRecordCount": 51,
+    "finalExerciseRecordCount": 55,
+    "frontLeverRegularExercisesAdded": 4,
+    "existingExercisesMarkedOptional": [
+      "Band-Assisted Bar Muscle-Up",
+      "Band-Assisted Muscle-Up",
+      "Straight-Bar Dip",
+      "Weighted Dip"
+    ],
+    "unrelatedExerciseSubstitutionsAdded": 0,
+    "unrelatedProgrammingDifferences": [],
+    "workingRecordsMissingRepOrTime": [],
+    "workingRecordsMissingRestSemantics": [],
+    "workingRecordsMissingSetSemantics": [],
+    "note": "No Smith hip-thrust, dumbbell-bench, cable-crossover, leg-curl, speed-Smith, kettlebell, back-extension, or acceleration substitution was added. Unrelated exercises remain normal base-program records."
+  },
+  "revision": {
+    "revisionID": "PH-CODEX-FG2-P01-MINIMAL-SKILL-REVISION",
+    "date": "2026-08-23",
+    "scope": "Front Lever primary emphasis + muscle-up/dip optionalization + prescription completeness metadata only",
+    "preserveUnrelatedProgramming": true
+  },
+  "frontLeverAthleteBaseline": {
+    "directFrontLeverExperience": "none",
+    "closestPriorPreparation": "Bent-arm pull-up knee-tuck repetitions: pull upward while bringing knees toward elbows.",
+    "interpretation": "Useful pulling and trunk-compression background, but not treated as equivalent to straight-arm Front-Lever skill.",
+    "programmingConsequence": "Begin with scapular/straight-arm control and progression-gated assisted/tight-tuck holds; do not assume a 6–12 second unassisted tuck."
+  },
+  "frontLeverBeginnerRevisionAudit": {
+    "result": "PASS",
+    "frontLeverHoldRecordsChanged": [
+      "PH-CODEX-FG2-P01-D02-AM-FL01",
+      "PH-CODEX-FG2-P01-D04-AM-FL01"
+    ],
+    "nonFrontLeverExerciseRecordsChanged": [],
+    "pullUpHighPullProgrammingChanged": false,
+    "otherPhase1ExerciseProgrammingChanged": false
   }
 }
